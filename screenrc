@@ -1,0 +1,17 @@
+defbce "on"
+
+vbell off
+
+startup_message off
+
+defscrollback 15000
+
+#look and feel - current screen notification tab
+# caption always "%{= bb}%{+b w}%n %t %h %=%l %H %c"
+hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+#permit scroll wheel functionality
+termcapinfo xterm* ti@:te@
+#To remove the remnant background when exiting vim 
+# term "screen-256color"
+#
+term "xterm-256color"
