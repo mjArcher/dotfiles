@@ -1,6 +1,3 @@
-!Black
-
-!
 *.color0: #000000
 *.color8: #5D5D5D
  
@@ -39,5 +36,13 @@
 *.foreground: #F8F8F8
  
 xterm*utf8: 2
-xterm*faceName: Mensch
+xterm*faceName: Monaco
+!* Mensch
 xterm*faceSize: 11
+
+
+URxvt*font:                 xft:Monaco for Powerline:regular:size=8
+URxvt*imFont:               xft:Monaco for Powerline:regular:size=8
+URxvt*boldFont:             xft:Monaco for Powerline:bold:size=8
+URxvt*italicFont:           xft:Monaco for Powerline:italic:size=8
+URxvt*boldItalicFont:       xft:Monaco for Powerline:bold:italic:size=8
