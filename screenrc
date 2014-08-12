@@ -13,5 +13,22 @@ hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
 termcapinfo xterm* ti@:te@
 #To remove the remnant background when exiting vim 
 # term "screen-256color"
-#
 term "xterm-256color"
+term screen-256color
+
+# Window number starts at 1, not 0
+bind 'q' quit
+# bind c screen 1
+# bind 0 select 10
+
+# replace Ctrl-A with Ctrl-O
+escape ^Oo
+
+hardstatus alwayslastline '%{= gk}%-Lw%{= rW}%50> %n%f* %t %{-}%+Lw%< %= %{= kG} %H %{= Bw} %l %{= kG} %Y-%m-%d %c %{g}' 
+
+bind ' ' windowlist -b 
+
+# startup screens
+
+# title ""
+
