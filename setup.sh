@@ -16,3 +16,5 @@ ln -s .dot/git/git-completion.bash git-completion.bash
 # ln -s ../.dot/sshconfig config
 # cd ..
 
+#run this in home dir
+
