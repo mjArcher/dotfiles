@@ -26,7 +26,7 @@ myKeys conf@(XConfig {XMonad.modMask = mod}) = M.fromList
   ((mod, xK_b), spawn "/opt/google/chrome/chrome --disk-cache-dir=/local/data/public/ma595/.cache/google-chrome")
   --, ((mod, xK_b), spawn "chromium-browser-tmp")
   , ((mod, xK_o), spawn "libreoffice")
-  , ((mod, xK_a), spawn "/local/data/public/ma595/skype-4.2.0.13/skype")
+  , ((mod, xK_a), spawn "skype")
   , ((mod, xK_m), spawn "/lsc/zeushome/ma595/Programs/mendeley/bin/mendeleydesktop")
 	, ((mod, xK_c), spawn "gnome-calculator")
   , ((mod .|. shiftMask, xK_s), spawn "/local/data/public/ma595/Steam/steam")
