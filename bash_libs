@@ -1,0 +1,25 @@
+#!/bin/bash
+
+export PATH=/lsc/opt/modules/gcc-4.8.2/openmpi-1.6.5/bin/:$PATH
+export PATH=$PATH:/lsc/opt/bin/
+export PATH=$PATH:~/Install/Programs/mendeley/bin/
+export PATH=$PATH:~/Libraries/eigen-dev/unsupported/
+export PATH=$PATH:/lsc/opt/visit/bin/
+export PATH=$PATH:~/Install/htop-1.0.2/
+export LD_LIBRARY_PATH=
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/Libraries/eigen-dev/unsupported/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lsc/opt/modules/gcc-4.8.2/hdf5-1.8.12/
+
+# add the pkg_path
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:~/Libraries/allegro/lib/pkgconfig/
+export path=$PATH:~/Libraries/allegro/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/Libraries/allegro/lib/
+export C_INCLUDE_PATH=$C_INCLUDE_PATH:~/Libraries/allegro/include/
+export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:~/Libraries/allegro/include
+export LIBRARY_PATH=$LIBRARY_PATH:~/Libraries/allegro/lib
+
+# install
+export PATH=$PATH:~/Code/Graphics/OpenGL/Premake/
+# export PATH=$PATH:~/Install/mit-scheme/bin/
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/Install/mit-scheme/lib/
+export MPIRUN="mpirun -mca btl ^sm"
