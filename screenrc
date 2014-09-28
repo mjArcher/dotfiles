@@ -14,7 +14,9 @@ termcapinfo xterm* ti@:te@
 #To remove the remnant background when exiting vim 
 # term "screen-256color"
 term "xterm-256color"
-term screen-256color
+term screen-256color-bce
+
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
 
 # Window number starts at 1, not 0
 bind 'q' quit
@@ -24,7 +26,8 @@ bind 'q' quit
 # replace Ctrl-A with Ctrl-O
 escape ^Oo
 
-hardstatus alwayslastline '%{= gk}%-Lw%{= rW}%50> %n%f* %t %{-}%+Lw%< %= %{= kG} %H %{= Bw} %l %{= kG} %Y-%m-%d %c %{g}' 
+hardstatus alwayslastline '%{= Bk}%-Lw%{= RW}%50> %n%f* %t %{-}%+Lw%< %= %{= Bw} %H %{= Bw} %l %{= bW} %Y-%m-%d %c %{g}' 
+
 
 bind ' ' windowlist -b 
 
@@ -32,3 +35,10 @@ bind ' ' windowlist -b
 
 # title ""
 
+# status bar customisations
+# termcapinfo xterm*|Eterm|mlterm "hs:ts=\E]0;:fs=\007:ds=\E]0;screen\007"
+# # hardstatus off
+# hardstatus string "screen %n (%t)%? [%h]%?"
+# hardstatus alwayslastline "%?%F%{-b bc}%:%{-b bb}%?%C|%D|%M %d|%H%?%F%{+u wb}%? %L=%-Lw%45>%{+b by}%n%f*%t%{-}%+Lw%-0<"
+# caption always
+# caption string "%{= bW}%3n %{y}%t %{-}%= %{m}%H%?%{-} -- %{c}%l%?%{-} -- %D %M %d %{y}%c"

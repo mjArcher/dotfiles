@@ -34,6 +34,8 @@
 !*.cursorColor: #218693
 !*.cursorColor2: #FFFFFF
 !*.foreground: #F8F8F8
+!
+
 
 !*background:  #22211f
 *background:  #000000
@@ -62,6 +64,7 @@
 ! White
 *color7:      #bbbbbb
 *color15:     #c6c6c6 
+
 
 xterm*utf8: 2
 xterm*eightBitInput: true
