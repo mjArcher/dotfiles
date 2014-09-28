@@ -64,3 +64,5 @@ IFS=$old
 # cat /proc/cpuinfo #provides info about cpu
 # gcc -c -Q -march=native --help=target | grep march 
 
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
