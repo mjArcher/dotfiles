@@ -68,3 +68,5 @@ PS1='\[\e[0;31m\]\h\[\e[m\] \[\e[0;32m\]\w\[\e[m\] # '
 # cat /proc/cpuinfo #provides info about cpu
 # gcc -c -Q -march=native --help=target | grep march 
 
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
