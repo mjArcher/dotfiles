@@ -1,12 +1,11 @@
 #!/bin/bash
-
-export PATH=/lsc/opt/modules/gcc-4.8.2/openmpi-1.6.5/bin/:$PATH
-export PATH=$PATH:/lsc/opt/bin/
+export PATH=/lsc/opt/modules/gcc-4.8.2/openmpi-1.6.5/bin:$PATH
+# export PATH=$PATH:/lsc/opt/bin/
 export PATH=$PATH:~/Install/Programs/mendeley/bin/
 export PATH=$PATH:~/Libraries/eigen-dev/unsupported/
 export PATH=$PATH:/lsc/opt/visit/bin/
 export PATH=$PATH:~/Install/htop-1.0.2/
-export LD_LIBRARY_PATH=
+export PATH=$PATH:~/Install/mit-scheme-c/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/Libraries/eigen-dev/unsupported/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lsc/opt/modules/gcc-4.8.2/hdf5-1.8.12/
 
