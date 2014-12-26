@@ -1,69 +1,70 @@
-!*.color0: #000000
-!*.color8: #5D5D5D
+!Black
+*.color0: #000000
+*.color8: #5D5D5D
  
 !Red
-!*.color1: #C75646
-!*.color9: #E09690
+*.color1: #C75646
+*.color9: #E09690
  
 !Green
-!*.color2: #8EB33B
-!*.color10: #CDEE69
+*.color2: #8EB33B
+*.color10: #CDEE69
  
 !Yellow
-!*.color3: #D0B03C
-!*.color11: #FFE377
+*.color3: #D0B03C
+*.color11: #FFE377
  
 !Blue
-!*.color4:  #72B3CC
-!*.color12: #9CD9F0
+*.color4:  #72B3CC
+*.color12: #9CD9F0
  
 !Magenta
-!*.color5:  #C8A0D1
-!*.color13: #FBB1F9
+*.color5:  #C8A0D1
+*.color13: #FBB1F9
  
 !Cyan
-!*.color6:  #218693
-!*.color14: #77DFD8
+*.color6:  #218693
+*.color14: #77DFD8
  
 !White
-!*.color7: #B0B0B0
-!*.color15: #F7F7F7
+*.color7: #B0B0B0
+*.color15: #F7F7F7
  
-!*.background: #1B1B1B
+*.background: #1B1B1B
 !*.colorBD: #FFFFFF
-!*.cursorColor: #218693
+*.cursorColor: #218693
 !*.cursorColor2: #FFFFFF
-!*.foreground: #F8F8F8
+*.foreground: #F8F8F8
 !
 
 
 !*background:  #22211f
-*background:  #000000
-*foreground:  #b5b0ad
+!*background:  #000000
+!*foreground:  #b5b0ad
 ! Black
-*color0:      #131313
-*color8:      #555753
+!*color0:      #131313
+!*color8:      #555753
 ! Red
-*color1:      #cd7171
-*color9:      #e89393
+!*color1:      #cd7171
+!*color9:      #e89393
 ! Green
-*color2:      #9ece9e
-*color10:     #c4edc4
+!*color2:      #9ece9e
+!*color10:     #c4edc4
 ! Yellow
-*color3:      #dfaf8f
-*color11:     #f0dfaf
+!*color3:      #dfaf8f
+!*color11:     #f0dfaf
 ! Blue
-*color4:      #6c8b9c
-*color12:     #84a8bc
+!*color4:      #6c8b9c
+!*color12:     #84a8bc
 ! Magenta
-*color5:      #ad7fa8
-*color13:     #dc8cc3
+!*color5:      #ad7fa8
+!*color13:     #dc8cc3
 ! Cyan
-*color6:      #8cd0d3
-*color14:     #81eaee
+!*color6:      #8cd0d3
+!*color14:     #81eaee
 ! White
-*color7:      #bbbbbb
-*color15:     #c6c6c6 
+!*color7:      #bbbbbb
+!*color15:     #c6c6c6 
 
 
 xterm*utf8: 2
@@ -71,7 +72,7 @@ xterm*eightBitInput: true
 !xterm*faceName: Mensch */
 /* !* Mensch */
 xterm*faceSize: 12
-xterm*faceName: Source Code Pro:antialias=False:pixelsize=16
+xterm*faceName: Source Code Pro:antialias=False:pixelsize=14
 
 !to get alt key to work
 XTerm*metaSendsEscape: true

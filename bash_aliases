@@ -7,9 +7,12 @@ alias grep='grep --color'
 
 #common directories
 alias cg="cd /data/atlas/ma595/cns_amr/CNS_AMR_Multimaterial"
+alias dco="cd ~/Code/Computing/"
+
 alias cm="cd ~/Code/Solid/myCode/dev"
 alias ck="cd ~/Code/Solid/KevinElastic "
 alias og="cd /local/data/public/ma595/"
+alias rs="/local/data2/public/ma595/rsync_dir/"
 
 alias dus="du -h --max-depth=1 . | sort -h -r"
 

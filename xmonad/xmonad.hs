@@ -4,6 +4,8 @@ import XMonad.Hooks.ManageHelpers
 import XMonad.Layout.NoBorders
 import Data.Map as M (fromList, union)
 import XMonad
+import XMonad.Hooks.SetWMName
+
 --import XMonad.Actions.GridSelect
 --import XMonad.Layout.TwoPane
 
@@ -11,6 +13,7 @@ main = xmonad defaultConfig
   { modMask = mod4Mask,
 		terminal = "xterm",
     keys = \c -> myKeys c `M.union` keys defaultConfig c
+    startupHook = setWMName "LG3D"
  -- layoutHook = layout
 --  Runs dropbox:
     -- startupHook = do

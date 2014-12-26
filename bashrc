@@ -10,8 +10,9 @@
 # Set the PS1 prompt (with colors).
 # Based on http://www-128.ibm.com/developerworks/linux/library/l-tip-prompt/
 # And http://networking.ringofsaturn.com/Unix/Bash-prompts.php .
-PS1="\[\e[36;1m\]\h:\[\e[32;1m\]\w$ \[\e[0m\]"
 
+# PS1="\[\e[36;1m\]\h:\[\e[32;1m\]\w$ \[\e[0m\]"
+PS1='\[\e[0;31m\]\h\[\e[m\] \[\e[0;32m\]\w\[\e[m\] # '
 # Append commands to the bash command history file (~/.bash_history)
 # instead of overwriting it.
 shopt -s histappend
@@ -30,9 +31,19 @@ if [ -f ~/.bash_libs ]; then
 	source ~/.bash_libs
 fi
 
+# Add bash exports
+if [ -f ~/.bash_bin ]; then
+	source ~/.bash_bin
+fi
+
+# Add bash functions
+if [ -f ~/.bash_functions ]; then
+	source ~/.bash_functions
+fi
+
 export TERM=xterm-256color
 #auto-completion script for git
-source ~/git-completion.bash
+source ~/.git-completion.bash
 #source ~/Solarized.bash
 # export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/hdf5/lib
 # export PATH=$PATH:/opt/hdf5/bin
