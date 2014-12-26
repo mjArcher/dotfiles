@@ -1,0 +1,10 @@
+#!/bin/bash
+export PATH=$PATH:/lsc/opt/visit/bin/
+export PATH=$PATH:~/Install/htop-1.0.2/
+export PATH=$PATH:~/Install/mit-scheme-c/bin
+export PATH=$PATH:/lsc/zeushome/ma595/.linuxbrew/bin
+# export PATH=$PATH:/home/raid/ma595/bin/
+
+export PATH=/home/raid/ma595/bin/:$PATH
+export PATH=/home/raid/ma595/.linuxbrew/bin:$PATH
+# export PATH=$PATH:/home/raid/ots22/bin/parallel
