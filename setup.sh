@@ -3,6 +3,10 @@ rm .vim .bashrc .vimrc .gitconfig .xmonad .Xresources .screenrc .inputrc .profil
 # rm .vim
 
 ln -s .dot/bashrc .bashrc
+ln -s .dot/bash_bin .bash_bin
+ln -s .dot/bash_aliases .bash_aliases
+ln -s .dot/bash_functions .bash_functions
+ln -s .dot/bash_libs .bash_libs
 ln -s .dot/dotvim .vim
 ln -s .dot/dotvim/vimrc .vimrc
 ln -s .dot/git/gitconfig .gitconfig
