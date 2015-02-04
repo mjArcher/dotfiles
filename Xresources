@@ -72,7 +72,7 @@ xterm*eightBitInput: true
 !xterm*faceName: Mensch */
 /* !* Mensch */
 xterm*faceSize: 12
-xterm*faceName: Source Code Pro:antialias=False:pixelsize=14
+xterm*faceName: Source Code Pro:antialias=False:pixelsize=12
 
 !to get alt key to work
 XTerm*metaSendsEscape: true

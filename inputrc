@@ -1,5 +1,5 @@
 # rxvt, xterm
-"\b":backward-kill-word
+# "\b":backward-kill-word
 
 "\e[1;5C": forward-word
 "\e[1;5D": backward-word

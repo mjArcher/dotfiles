@@ -5,6 +5,9 @@ alias ll='ls -lho'
 alias la='ll -a'
 alias grep='grep --color'
 
+alias za='zathura'
+
+
 #common directories
 alias cg="cd /data/atlas/ma595/cns_amr/CNS_AMR_Multimaterial"
 alias dco="cd ~/Code/Computing/"
