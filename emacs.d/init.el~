@@ -1,0 +1,12 @@
+
+(menu-bar-mode -1)
+
+(require 'package)
+
+;; Add melpa package source when using package list
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+
+;; Load emacs pacakges and activate them
+;; This must come before configutations of installed packages
+;; Dont delete this line.
+(package-initialize)

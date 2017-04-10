@@ -1,4 +1,5 @@
 #!/bin/sh
+cd ~/
 rm .vim .bashrc .vimrc .gitconfig .xmonad .Xresources .screenrc .inputrc .profile .git-completion.bash .bash_bin .bash_aliases .bash_functions .bash_libs
 # rm .vim
 
