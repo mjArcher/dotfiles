@@ -1,1 +1,0 @@
-.dot/git/git-completion.bash

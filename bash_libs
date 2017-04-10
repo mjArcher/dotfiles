@@ -1,10 +1,13 @@
 #!/bin/bash
-export PATH=/lsc/opt/modules/gcc-4.8.2/openmpi-1.6.5/bin:$PATH
-# export PATH=$PATH:/lsc/opt/bin/
+export PATH=$PATH:/home/matt/lib/
 export PATH=$PATH:~/Install/Programs/mendeley/bin/
 export PATH=$PATH:~/Libraries/eigen-dev/unsupported/
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/Libraries/eigen-dev/unsupported/
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lsc/opt/modules/gcc-4.8.2/hdf5-1.8.12/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/Eigen
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/
+# this line is currently incorrect
+export MITSCHEME_LIBRARY_PATH=/home/matt/lib/mit-scheme-x86-64
+
 
 # add the pkg_path
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:~/Libraries/allegro/lib/pkgconfig/

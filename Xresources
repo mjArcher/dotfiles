@@ -1,44 +1,94 @@
-!Black
-*.color0: #000000
-*.color8: #5D5D5D
+/* *.cursorColor: #FFFFFF */
+/* /1* *.foreground: #F8F8F8 *1/ */
+/* *.foreground: #FFFFFF */
+/* *.background:  #22211f */
+
+/* !Black */
+/* *.color0: #000000 */
+/* *.color8: #5D5D5D */
  
-!Red
-*.color1: #C75646
-*.color9: #E09690
+/* !Red */
+/* *.color1: #C75646 */
+/* *.color9: #E09690 */
  
-!Green
-*.color2: #8EB33B
-*.color10: #CDEE69
+/* !Green */
+/* *.color2: #8EB33B */
+/* *.color10: #CDEE69 */
  
-!Yellow
-*.color3: #D0B03C
-*.color11: #FFE377
+/* !Yellow */
+/* *.color3: #D0B03C */
+/* *.color11: #FFE377 */
  
-!Blue
-*.color4:  #72B3CC
-*.color12: #9CD9F0
+/* !Blue */
+/* *.color4:  #72B3CC */
+/* *.color12: #9CD9F0 */
  
-!Magenta
-*.color5:  #C8A0D1
-*.color13: #FBB1F9
+/* !Magenta */
+/* *.color5:  #C8A0D1 */
+/* *.color13: #FBB1F9 */
  
-!Cyan
-*.color6:  #218693
-*.color14: #77DFD8
+/* !Cyan */
+/* *.color6:  #218693 */
+/* *.color14: #77DFD8 */
  
-!White
-*.color7: #B0B0B0
-*.color15: #F7F7F7
+/* !White */
+/* *.color7: #B0B0B0 */
+/* *.color15: #F7F7F7 */
+
+#define t_background        #1d1f21
+#define t_current_line      #282a2e
+#define t_selection       #373b41
+#define t_foreground        #c5c8c6
+#define t_comment       #969896
+#define t_red         #cc6666
+#define t_orange        #de935f
+#define t_yellow          #f0c674
+#define t_green           #b5bd68
+#define t_aqua            #8abeb7
+#define t_blue            #81a2be
+#define t_purple          #b294bb
+
+
+*.foreground:   t_foreground
+*.background:   t_background
+*.cursorColor:  #aeafad
+
+! Black / Grey
+*.color0:       #000000
+*.color8:       #666666
+
+! Red / Bright Red
+*.color1:       t_red
+*.color9:       #FF3334
+
+! Green + Bright Green
+*.color2:       t_green
+*.color10:      #9ec400
+
+! Yellow (Orange) + Bright Yellow (Yellow)
+*.color3:       t_orange
+*.color11:      t_yellow
+
+! Blue + Bright Blue
+*.color4:       t_blue
+*.color12:      t_blue
+
+! Magenta (Purple) + Bright Magenta
+*.color5:       t_purple
+*.color13:      #b777e0
+
+! Cyan (Aqua) + Bright Cyan
+*.color6:       t_aqua
+*.color14:      #54ced6
+
+! Light Grey (Selection) + White (Current Line)
+*.color7:       t_selection
+*.color15:      t_current_line
  
-*.background: #1B1B1B
+/* *.background: #111111 */
+!*.background: #000000
 !*.colorBD: #FFFFFF
-*.cursorColor: #218693
-!*.cursorColor2: #FFFFFF
-*.foreground: #F8F8F8
-!
-
-
-!*background:  #22211f
+!*.cursorColor: #218693
 !*background:  #000000
 !*foreground:  #b5b0ad
 ! Black
@@ -47,42 +97,53 @@
 ! Red
 !*color1:      #cd7171
 !*color9:      #e89393
-! Green
+!! Green
 !*color2:      #9ece9e
 !*color10:     #c4edc4
-! Yellow
+!! Yellow
 !*color3:      #dfaf8f
 !*color11:     #f0dfaf
-! Blue
+!! Blue
 !*color4:      #6c8b9c
 !*color12:     #84a8bc
-! Magenta
+!! Magenta
 !*color5:      #ad7fa8
 !*color13:     #dc8cc3
-! Cyan
+!! Cyan
 !*color6:      #8cd0d3
 !*color14:     #81eaee
-! White
+!! White
 !*color7:      #bbbbbb
 !*color15:     #c6c6c6 
 
 
-xterm*utf8: 2
-xterm*eightBitInput: true
 !xterm*faceName: Mensch */
 /* !* Mensch */
-xterm*faceSize: 12
-xterm*faceName: Source Code Pro:antialias=False:pixelsize=12
+/* xterm*faceSize: 14 */
+
+!xterm*faceName: Sauce Code Powerline Medium:antialias=False:pixelsize=13 
+/* UXTerm*faceName: Literation Mono Powerline:antialias=False:pixelsize=13 */ 
+UXTerm*faceName: Literation Mono Powerline:antialias=False:pixelsize=13 
+/* UXTerm*faceName:Meslo\ LG\ L\ DZ\ Regular\ for\ Powerline:antialias=False:pixelsize=13 */
+!UXTerm*faceName: Inconsolata for Powerline:antialias=False:pixelsize=15
+/* xterm*faceName: Monofur for Powerline:antialias=False:pixelsize=14 */
+UXTerm*scaleHeight: 0.95
+UXTerm*utf8: 1
+UXTerm*eightBitInput: true
+UXTerm*locale: true
 
 !to get alt key to work
-XTerm*metaSendsEscape: true
+UXTerm*metaSendsEscape: true
+UXTerm*borderWidth: 0
+UXTerm*saveLines: 10000
 
-!Xterm*font: xft:Source\ Code\ Pro:Regular:size=15 */
+
+! Xterm*font: xft:Source\ Code\ Pro:Regular:size=15 *1/ 
 ! xterm*font:     *-fixed-*-*-*-18-* */
-!xterm*font:                 xft:Monaco for Powerline:regular:size=11 */
-!xterm*imFont:               xft:Monaco for Powerline:regular:size=11 */
-!xterm*boldFont:             xft:Monaco for Powerline:bold:size=11 */
-!xterm*italicFont:           xft:Monaco for Powerline:italic:size=11 */
-!xterm*boldItalicFont:       xft:Monaco for Powerline:bold:italic:size=11 */
+! xterm*font:                 xft:Monaco for Powerline:regular:size=11 *1/ 
+! xterm*imFont:               xft:Monaco for Powerline:regular:size=11 *1/ 
+! xterm*boldFont:             xft:Monaco for Powerline:bold:size=11 *1/ 
+! xterm*italicFont:           xft:Monaco for Powerline:italic:size=11 *1/ 
+! xterm*boldItalicFont:       xft:Monaco for Powerline:bold:italic:size=11 *1/ 
 
 

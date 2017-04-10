@@ -1,10 +1,11 @@
 #!/bin/bash
-export PATH=$PATH:/lsc/opt/visit/bin/
-export PATH=$PATH:~/Install/htop-1.0.2/
-export PATH=$PATH:~/Install/mit-scheme-c/bin
-export PATH=$PATH:/lsc/zeushome/ma595/.linuxbrew/bin
-# export PATH=$PATH:/home/raid/ma595/bin/
+export PATH=$PATH:/home/matt/.linuxbrew/bin/
+export PATH=$PATH:/home/matt/bin
+export PATH=$PATH:/home/matt/install/mit-scheme-9.2/bin
+export PATH=$PATH:$HOME/.local/bin
 
-export PATH=/home/raid/ma595/bin/:$PATH
-export PATH=/home/raid/ma595/.linuxbrew/bin:$PATH
-# export PATH=$PATH:/home/raid/ots22/bin/parallel
+export PATH=$PATH:/home/matt/install/texlive/2016/bin/x86_64-linux/
+export PATH=$PATH:/home/matt/install/mendeleydesktop-1.13.6-linux-x86_64/bin
+# export PATH=$PATH:/home/matt/install/visit2_8_1.linux-x86_64/bin/
+export PATH=$PATH:/home/matt/install/visit2_10_2.linux-x86_64/bin/
+export PATH=$PATH:/home/matt/install/MATLAB/R2016a/bin/

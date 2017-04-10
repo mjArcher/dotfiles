@@ -16,6 +16,7 @@ termcapinfo xterm* ti@:te@
 term "xterm-256color"
 term screen-256color-bce
 
+# this is to get 256 colours working in screen
 termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
 
 # Window number starts at 1, not 0
