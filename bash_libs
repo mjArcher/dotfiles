@@ -5,17 +5,19 @@ export PATH=$PATH:~/Libraries/eigen-dev/unsupported/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/Eigen
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/
+export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
 # this line is currently incorrect
 export MITSCHEME_LIBRARY_PATH=/home/matt/lib/mit-scheme-x86-64
 
 
+
 # add the pkg_path
-export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:~/Libraries/allegro/lib/pkgconfig/
-export path=$PATH:~/Libraries/allegro/
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/Libraries/allegro/lib/
-export C_INCLUDE_PATH=$C_INCLUDE_PATH:~/Libraries/allegro/include/
-export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:~/Libraries/allegro/include
-export LIBRARY_PATH=$LIBRARY_PATH:~/Libraries/allegro/lib
+# export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:~/Libraries/allegro/lib/pkgconfig/
+# export path=$PATH:~/Libraries/allegro/
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/Libraries/allegro/lib/
+# export C_INCLUDE_PATH=$C_INCLUDE_PATH:~/Libraries/allegro/include/
+# export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:~/Libraries/allegro/include
+# export LIBRARY_PATH=$LIBRARY_PATH:~/Libraries/allegro/lib
 
 # install
 export PATH=$PATH:~/Code/Graphics/OpenGL/Premake/

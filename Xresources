@@ -123,7 +123,7 @@
 
 !xterm*faceName: Sauce Code Powerline Medium:antialias=False:pixelsize=13 
 /* UXTerm*faceName: Literation Mono Powerline:antialias=False:pixelsize=13 */ 
-UXTerm*faceName: Literation Mono Powerline:antialias=False:pixelsize=13 
+UXTerm*faceName: Literation Mono Powerline:antialias=True:pixelsize=12
 /* UXTerm*faceName:Meslo\ LG\ L\ DZ\ Regular\ for\ Powerline:antialias=False:pixelsize=13 */
 !UXTerm*faceName: Inconsolata for Powerline:antialias=False:pixelsize=15
 /* xterm*faceName: Monofur for Powerline:antialias=False:pixelsize=14 */

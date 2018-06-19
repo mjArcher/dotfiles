@@ -30,7 +30,7 @@ main = do
       modMask = mod4Mask,
       manageHook = manageDocks <+> manageHook defaultConfig,
       layoutHook = avoidStruts $ smartBorders $ myLayout,
-      terminal = "uxterm",
+      terminal = "uxterm -ti vt340",
 
       -- layoutHook = avoidStruts $ layoutHook defaultConfig,
       logHook = dynamicLogWithPP $ sjanssenPP 
@@ -65,14 +65,14 @@ myKeys conf@(XConfig {XMonad.modMask = mod}) = M.fromList
   ((mod .|. shiftMask, xK_b), spawn "chromium-browser")
   , ((mod .|. shiftMask, xK_o), spawn "libreoffice")
   , ((mod .|. shiftMask, xK_f), spawn "spotify-wrapper.sh")
-  , ((mod .|. shiftMask, xK_a), spawn "skype")
+  , ((mod .|. shiftMask, xK_a), spawn "skypeforlinux")
   , ((mod .|. shiftMask, xK_d), spawn "/home/matt/install/mendeleydesktop-1.13.6-linux-x86_64/bin/mendeleydesktop")
 	, ((mod .|. shiftMask, xK_m), spawn "gnome-calculator")
   , ((mod .|. shiftMask, xK_s), spawn "/local/data/public/ma595/Steam/steam")
     -- 0 here means no mod key
   , ((mod, xK_s), spawn "/home/matt/bin/screenshot")
-  -- , ((mod .|. shiftMask, xK_l), spawn "gnome-screensaver-command -l")
-  , ((mod .|. shiftMask, xK_l), spawn "xscreensaver-command -lock")
+  , ((mod .|. shiftMask, xK_l), spawn "gnome-screensaver-command -l")
+  -- , ((mod .|. shiftMask, xK_l), spawn "xscreensaver-command -lock")
   , ((mod, xK_p), spawn "dmenu_run | dmenu -b")
   , ((mod, xK_z), spawn "zathura")
   , ((mod, xK_v), spawn "/home/matt/install/visit2_10_2.linux-x86_64/bin/visit")

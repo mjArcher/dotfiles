@@ -9,3 +9,4 @@ export PATH=$PATH:/home/matt/install/mendeleydesktop-1.13.6-linux-x86_64/bin
 # export PATH=$PATH:/home/matt/install/visit2_8_1.linux-x86_64/bin/
 export PATH=$PATH:/home/matt/install/visit2_10_2.linux-x86_64/bin/
 export PATH=$PATH:/home/matt/install/MATLAB/R2016a/bin/
+export PATH=$PATH:/home/matt/install/pandoc-watch/
